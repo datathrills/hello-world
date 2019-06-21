@@ -1,0 +1,305 @@
+/* ALL */
+html {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Courier New", Courier, Monospaced;
+    height: 100%
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    text-align: left;
+    width: 100%;
+}
+
+
+
+
+/* PAGE ONE - INTRODUCTION AND LANDING PAGE */
+.wrapper1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    grid-auto-rows: minmax(100px, auto);
+    text-align: center;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.four {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.five {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.six {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.seven {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.eight {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.nine {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.ten {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.eleven {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.twelve {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+
+
+/* PAGE TWO - INTERACTIVE MAP OF DUBLIN */
+.wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: ivory;
+    color: black;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper3 {
+    background-color: black;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    grid-auto-rows: minmax(100px, auto);
+    text-align: center;
+    background-color: ivory;
+    color: black;
+    height: 100%;
+}
+
+.one2 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two2 {
+    grid-row: 1;
+    grid-column: 1 / 5;
+    text-align: center;
+}
+
+.three2 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.four2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.five2 {
+    grid-column: 1 / 5;
+    text-align: center;
+    grid-row: 2;
+}
+
+.six2 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.seven2 {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+}
+
+.eight2 {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+}
+
+.nine2 {
+    grid-column: 3;
+    grid-row: 3;
+    text-align: center;
+}
+
+.ten2 {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+}
+
+.eleven2 {
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+}
+
+.twelve2 {
+    grid-column: 3;
+    grid-row: 4;
+    text-align: center;
+}
+
+.explore {
+    text-align: center;
+    font-size: large;
+}
+
+#DublinMap {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+#searchicon {
+    bottom: 0;
+    vertical-align: bottom;
+}
+
+
+.Person1 {
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.one3 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two3 {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+}
+
+.three3 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.four3 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.five3 {
+    grid-column: 2;
+    text-align: center;
+    grid-row: 2;
+}
+
+.six3 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.seven3 {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+}
+
+.eight3 {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+}
+
+.nine3 {
+    grid-column: 3;
+    grid-row: 3;
+    text-align: center;
+}
+
+.ten3 {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+}
+
+.eleven3 {
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+}
+
+.twelve3 {
+    grid-column: 3;
+    grid-row: 4;
+    text-align: center;
+}

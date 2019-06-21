@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Dublin Map 2</title>
+
+    <!-- Link the CSS sources-->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+
+<h2> Dublin Map </h2>
+
+<div class="wrapper2">
+    <div class="one2"> </div>
+    <div class="two2"><form> Search By Address
+        <input type="text" name="address"><a href="index2.html"><button type="button" class="button2">Go</button></a></form></div>
+    <div class="three2"> </div>
+    <div class="four2">  </div>
+    <div class="five2"> <div id="searchicon"> Search By Icon</div> </div>
+    <div class="six2"> </div>
+    <div class="seven2" data-aos="fade-up-right"> <img class="Person1" src="person1.png" alt="Person Icon"> </div>
+    <div class="eight2" data-aos="zoom-in-down"> <img class="Person1" src="person1.png" alt="Person Icon"> </div>
+    <div class="nine2" data-aos="fade-up-left"> <img class="Person1" src="person1.png" alt="Person Icon"> </div>
+    <div class="ten2" data-aos="fade-up-right"> <img class="Person1" src="person1.png" alt="Person Icon"> </div>
+    <div class="eleven2" data-aos="zoom-in-up"> <img class="Person1" src="person1.png" alt="Person Icon"> </div>
+    <div class="twelve2" data-aos="fade-up-left"> <img class="Person1" src="person1.png" alt="Person Icon"> </div>
+</div>
+<br>
+<div class="explore" data-aos="fade-right">Alternatively, please use the interactive map to explore each area of Dublin</div>
+<br>
+
+
+<div class="wrapper3" data-aos="fade-in">
+    <img id="DublinMap" src="Dublin.jpg" alt="Dublin Map">
+</div>
+
+
+
+<div class="wrapper4">
+    <div class="one3"> </div>
+    <div class="two3"> </div>
+    <div class="three3"> </div>
+    <div class="four3" data-aos="fade-right"> <img class="Person1" src="person1.png" alt="Person Icon"> </div>
+    <div class="five3" data-aos="zoom-in"> Description of Icon and Location Where Profile is Found in Dublin </div>
+    <div class="six3"  data-aos="fade-left"> <video width="350" height="auto" controls>
+        <source src="videoplayback.mp4" type="video/mp4">
+        Your browser does not support the video tag. </video>
+    </div>
+    <div class="seven3"> </div>
+    <div class="eight3"> </div>
+    <div class="nine3"> </div>
+    <div class="ten3"> </div>
+    <div class="eleven3"> </div>
+    <div class="twelve3"> </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="main.js"></script>
+
+<!-- Link the JSON and D3 sources-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<!-- Load MapBox Library-->
+<script src='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.js'></script>
+
+</body>
+</html>
